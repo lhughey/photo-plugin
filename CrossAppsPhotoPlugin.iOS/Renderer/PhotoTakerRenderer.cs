@@ -9,7 +9,7 @@ using Xamarin.Forms.Platform.iOS;
 using System.Reflection;
 using System.Linq;
 
-[assembly: ExportRenderer(typeof(PhotoTakerView), typeof(PhotoTakerRenderer))]
+//[assembly: ExportRenderer(typeof(PhotoTakerView), typeof(PhotoTakerRenderer))]
 namespace CrossAppsPhotoPlugin.iOS.Renderer
 {
     public class PhotoTakerRenderer : ViewRenderer<PhotoTakerView, UIPhotoTakerView>

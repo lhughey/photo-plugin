@@ -14,7 +14,7 @@ namespace PhotoTaker
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushModalAsync(new MainPage());
+            Navigation.PushAsync(new MainPageLyndon());
         }
     }
 }

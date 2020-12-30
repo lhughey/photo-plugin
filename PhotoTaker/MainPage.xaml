@@ -5,11 +5,18 @@
              xmlns:crossapps="clr-namespace:CrossAppsPhotoPlugin;assembly=CrossAppsPhotoPlugin"
              xmlns:effects="clr-namespace:CrossAppsPhotoPlugin.Effects;assembly=CrossAppsPhotoPlugin"
              Title="MainPage"
-             x:Class="PhotoTaker.MainPage">
-    <ContentPage.Effects>
+             x:Class="PhotoTaker.MainPage"
+             BackgroundColor="Red">
+
+    <Label Text="MainPage"/>
+    <!--<ContentPage.Effects>
         <effects:OrientationEffect />
-    </ContentPage.Effects>
-    
+    </ContentPage.Effects>-->
+
+
+
+
+    <!--
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*" />
@@ -18,5 +25,5 @@
         <crossapps:PhotoTakerView x:Name="photoTakerView" Grid.Row="0" CloseButtonVisible="true"
                                   HorizontalOptions="FillAndExpand" MaxImageCount="6" 
                                   VerticalOptions="FillAndExpand"/>
-    </Grid>
+    </Grid>-->
 </ContentPage>
